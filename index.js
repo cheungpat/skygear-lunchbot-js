@@ -17,3 +17,4 @@
 
 
 require('./src/handlers');
+require('skygear-cms');
