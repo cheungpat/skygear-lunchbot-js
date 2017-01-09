@@ -17,4 +17,12 @@
 
 
 require('./src/handlers');
-require('skygear-cms');
+const cms = require('skygear-cms');
+
+function includeme(skygearCloud, settings) {
+  cms.includeme(skygearCloud, settings);
+}
+
+module.exports = {
+  includeme
+};
